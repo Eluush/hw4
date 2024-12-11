@@ -4,16 +4,14 @@ public class Main {
         int age = 18;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + " он совершеннолетний ");
-        }
-        if (age < 18) {
+        } else   {
             System.out.println("Если возраст человека равен " + age + " он не достиг совершеннолетия,нужно немного подождать");
         }
 
         int degrees = 2;
         if (degrees >= 5) {
             System.out.println("На улице " + degrees + " градусов,можно идти без шапки ");
-        }
-        if (degrees < 5) {
+        } else   {
             System.out.println("На улице " + degrees + " градусов,нужно надеть шапку ");
         }
 
@@ -36,9 +34,9 @@ public class Main {
         }
 
         int annum = 13;
-        if (annum <= 5) {
+        if (annum < 5) {
             System.out.println("Если возраст ребенка равен " + annum + " ,то ему нельзя кататься на аттракционе");
-        } else if (annum > 5 && annum < 14) {
+        } else if (annum > 5 && annum <= 14) {
             System.out.println("Если возраст ребенка равен " + annum + " ,то ему можно кататься на аттракционе в сопровождении взрослого");
         } else if (annum > 14) {
             System.out.println("Если возраст ребенка равен " + annum + " ,то ему можно кататься на аттракционах без сопровождения взрослых");
@@ -50,8 +48,7 @@ public class Main {
         int passenger = 120;
         if (passenger < 60) {
             System.out.println("В вагоне есть сидячие места ");
-        }
-        if (passenger > 60 && passenger < 120) {
+        } else if (passenger > 60 && passenger < 120) {
             System.out.println("То в вагоне есть стоячие места ");
         } else {
             System.out.println("Вагон уже полностью забит");
