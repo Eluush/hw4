@@ -36,7 +36,7 @@ public class Main {
         int annum = 13;
         if (annum < 5) {
             System.out.println("Если возраст ребенка равен " + annum + " ,то ему нельзя кататься на аттракционе");
-        } else if (annum > 5 && annum <= 14) {
+        } else if (annum >= 5 && annum <= 14) {
             System.out.println("Если возраст ребенка равен " + annum + " ,то ему можно кататься на аттракционе в сопровождении взрослого");
         } else if (annum > 14) {
             System.out.println("Если возраст ребенка равен " + annum + " ,то ему можно кататься на аттракционах без сопровождения взрослых");
